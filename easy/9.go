@@ -5,9 +5,6 @@ import (
 	"strings"
 )
 
-// Input: x = 121
-// Output: true
-
 func IsPalindromeNumber(x int) bool {
 	if x < 0 {
 		return false
